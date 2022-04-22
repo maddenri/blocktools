@@ -91,7 +91,7 @@ def handle_response(buffer):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format='%(message)s', handlers=[
-        logging.FileHandler("bitcoin_reader.log"),
+        logging.FileHandler("bitcoin_reader.log", 'w'),
         logging.StreamHandler()
     ])
     parser = argparse.ArgumentParser(description='Establish TCP connection to node on bitcoin '

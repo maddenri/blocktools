@@ -3,7 +3,7 @@
 
 This application connects to a preconfigured node on the Bitcoin network and parses
 incoming messages outputting them to the console as well as a log file 'bitcoin_reader.log'. 
-Parsers have been set up to handle payloads of 'block','inv','tx' and 'version' messages whereas 
+Parsers have been set up to handle payloads of 'block', 'inv', 'tx' and 'version' messages whereas 
 any other message types will only output their parsed message structure and payload in 'bytes' format.
 
 Run: `python bitcoin_reader.py` from the cmd line. 
