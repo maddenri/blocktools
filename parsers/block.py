@@ -11,7 +11,7 @@ class Block:
             self.transactions += f"{Tx(blockchain)}\n"
 
     def __str__(self):
-        return f"{'#' * 50} Block {'#' * 52}\n" \
+        return f"{'=' * 50} Block {'=' * 52}\n" \
                f"{self.header}\n" \
                f"{self.transactions}"
 
